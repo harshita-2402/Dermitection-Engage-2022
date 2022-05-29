@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Engage 2022</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/logo1.JPG' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo me-auto"><img src="{% static 'assets/img/logo2.JPG' %}" alt=""></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="logo me-auto"><a href="index.html">Dermitection</a></h1> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Disease-Detection</a></li>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style ="background: rgb(245, 217, 217);">
+          <!-- <img class="d-block w-100" src="{% static 'assets/img/slide/slide-1.jpg' %}" alt="First slide"> -->
+          <div class="container">
+            <h2>Welcome to <span>Dermitection</span></h2>
+            <p>Dermitection is a web application for disease detection. The webapp helps in quick and remote diagnosis of diseases in real time!</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/wordchart.webp)">
+          <div class="container">
+            <h2>Dermitection</h2>
+            <p>Dermitection provides real time detection of 6 skin based and 5 eye diseases.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(static/assets/img/slide/slide3.jpg)">
+          <div class="container">
+            <h2>Engage 2022</h2>
+            <p>This web-app is part of the Microsoft Engage 2022 mentorship program.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Dermitection is a deep learning based disease recognition application which covers 6 types of common skin diseases and 5 types of diseases related to eyes in humans.</p>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+    <!-- ======= Skin Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>DIseases Covered</h2>
+          <h3>SKIN DISEASES</h3>
+          </div>
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-shield"></i>
+              <h4>Acne and Rosacea</h4>
+              <p>A condition that causes redness and often small, red, pus-filled bumps on the face.</p>
+            </div>
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-shield"></i>
+              <h4>Eczema</h4>
+              <p>A medical condition in which patches of skin become rough and inflamed with blisters which cause itching and bleeding.</p>
+            </div>
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-shield"></i>
+              <h4>Light disease and disorders of pigmentation</h4>
+              <p>Thses disorders are caused by the loss of pigment-producing cells in the skin (melanocytes). It is thought to be an autoimmune disease. The white patches are very sensitive to the sun.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Melanoma</h4>
+              <p>Melanoma is a form of skin cancer that begins in the cells (melanocytes) that control the pigment in your skin. It is the most serious form of skin cancer worldwide.</p>
+            </div>
+             <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Vascular Tumors</h4>
+              <p>A vascular tumor is a tumor of vascular origin; a soft tissue growth that can be either benign or malignant, formed from blood vessels or lymph vessels.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Warts Molluscum and other Viral Infections</h4>
+              <p>A small, fleshy bump on the skin or mucous membrane caused by human papillomavirus.
+                Warts are caused by various strains of human papillomaviruses. </p>
+            </div>
+           </div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("static/assets/img/about-2.JPG")' data-aos="zoom-in"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Skin Section -->
+    <!-- ======= Eye Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h3>EYE DISEASES</h3>
+          </div>
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Bulging Eyes</h4>
+              <p>Bulging of the eyes causes the eyes to move out of the sockets in one or both eyes.</p>
+            </div>
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Cataracts</h4>
+              <p>Clouding of the normally clear lens of the eye.
+                Most cataracts develop slowly over the course of years.
+                The main symptom is blurry vision.</p>
+            </div>
+             <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Crossed Eyes</h4>
+              <p>Disorder in which the eyes don't look in exactly the same direction at the same time.
+                Causes of strabismus can include nerve injury or dysfunction of the muscles controlling the eye.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Glaucoma</h4>
+              <p>A group of eye conditions that can cause blindness.
+                With all types of glaucoma, the nerve connecting the eye to the brain is damaged, usually due to high eye pressure.</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Uveitis</h4>
+              <p>An inflammation of the middle layer of the eye (uvea).
+                The most common type is an inflammation of the iris called iritis (anterior uveitis).</p>
+            </div>
+           </div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("static/assets/img/eye.jpg");' data-aos="zoom-in"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Eye Section -->
+
+    <!-- ======= DD Section ======= -->
+    <section id="services" class="services services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>DISEASE DETECTION</h2>
+          <p>Start Camera for disease identification</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-4 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-dna"></i></div>
+            <h4 class="title"><a href="">SKIN DISEASES</a></h4>
+            <p class="description">Real Time Disease Detection (Skin)</p>
+            <a href="{% url 'call' %}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Start Detection</a>
+            <h6>Details of Detected Disease: </h6>
+                {{ details }}
+          </div>
+          <div class="col-lg-6 col-md-4 icon-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-dna"></i></div>
+            <h4 class="title"><a href="">EYE DISEASES</a></h4>
+            <p class="description">Real Time Disease Detection (Eye)</p>
+            <a href="{% url 'eyecall' %}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Start Detection</a>
+            <h6>Details of Detected Disease: </h6>
+                {{ eyedetails }}
+          </div>
+          <!-- <div class="col-lg-4 col-md-4 icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon"><i class="fas fa-wheelchair"></i></div>
+            <h4 class="title"><a href="">UPLOAD FILE</a></h4>
+            <p class="description">Upload Image Files</p>
+            <a href="" class = btn-get-started animate__animated animate__fadeInUp scrollto>Upload</a>
+             <a href = "create.html", class = btn-get-started animate__animated animate__fadeInUp scrollto>Upload Here</a>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End DD Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+      </div>
+      <div class="container">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Enagage 2022</h3>
+                  <p>Face Recognition Web-App</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email</h3>
+                  <p>hmangotra@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call</h3>
+                  <p>+91 XXXXXXXXXX</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="{% static 'forms/contact.php' %}" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col form-group mt-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Dermitection</h3>
+              <p>
+                <strong>Phone:</strong> +91 XXXXXXXXXX<br>
+                <strong>Email:</strong> hmangotra@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+               
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Disease-Detection</a></li>
+
+            </ul>
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Harshita M</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
