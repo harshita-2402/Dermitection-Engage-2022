@@ -10,8 +10,9 @@
 ## TABLE OF CONTENTS
 - [About the Project](#heading1)
   * [Diseases Covered](#subheading1)
-  * [Tech Stack](#subheading2)
-  * [Compatible Platforms](#subheading3)
+  * [Data](#subheading2)
+  * [Tech Stack](#subheading3)
+  * [Compatible Platforms](#subheading4)
 - [UI of the Webapp](#heading2)
 - [How to setup and run](#heading3)
 - [Additional Instructions](#heading4)
@@ -43,8 +44,15 @@ Details of the detected disease like Name of disease, Symptoms and Cure/Remedies
   - Crossed Eyes
   - Glaucoma
   - Uveitis
-
-### **TECHNOLOGY USED** <a name="subheading2"></a>
+ ### **DATA** <a name="subheading2"></a>
+ 
+ Datasets used taken from [Kaggle](https://www.kaggle.com/) and self aquired:
+ 
+   - https://www.kaggle.com/datasets/shubhamgoel27/dermnet (SKIN)
+   - https://www.kaggle.com/datasets/kondwani/eye-disease-dataset (EYE)
+    
+    
+### **TECHNOLOGY USED** <a name="subheading3"></a>
 - Python
 - Django
 - Tensorflow Keras (Convolutional Neural Network, InceptionV3)
@@ -53,7 +61,7 @@ Details of the detected disease like Name of disease, Symptoms and Cure/Remedies
 - Bootstrap
 - Sqlite Database
 
-### **COMPATIBLE PLATFORMS** <a name="subheading3"></a>
+### **COMPATIBLE PLATFORMS** <a name="subheading4"></a>
 This web-application is compatible with Laptops, PCs and Tablets.
 
 ## **UI OF THE WEBSITE** <a name="heading2"></a>
@@ -69,7 +77,7 @@ This web-application is compatible with Laptops, PCs and Tablets.
 ## **HOW TO SETUP AND RUN** <a name="heading3"></a>
 - Clone the GitHub repository: 
 ``` sh
-$ git clone https://github.com/harshita-2402/Dermitection-Engage-22.git
+$ git clone [https://github.com/harshita-2402/Dermitection-Engage-22.git](https://github.com/harshita-2402/Dermitection-Engage-2022.git)
 ```
 - Download the required models:
 
@@ -78,10 +86,7 @@ $ git clone https://github.com/harshita-2402/Dermitection-Engage-22.git
   * Eye model: https://drive.google.com/file/d/108Gq_0j0wssfIVA-3vUsgPj_kN4zAkoy/view?usp=sharing
   
   And place them inside FaceRecog folder
-- Navigate inside FaceRecog:
-``` sh
-$ cd FaceRecog
-```
+
 - Install dependencies from requirements.txt using command 
 ``` sh
 $ pip install -r requirements.txt
@@ -92,15 +97,11 @@ $ python manage.py runserver
 ```
 
 - Open up Google Chrome and type in ```localhost:8000\```. 
-- Click on 'DISEASE-DETECTION' on the nav-bar and choose eye disease or skin disease detection.
+- Click on 'DISEASE-DETECTION' on the nav-bar or scroll down and click on 'Start Detection' for eye or skin disease identification.
 
 ***Dermitection is up and running!***
 
 ## **ADDITIONAL INSTRUCTIONS:** <a name="heading4"></a>
-1. The Deep Learning models load faster with a GPU, if GPU is not available please wait for about 1-2 minutes for the app to start and ignore warnings.
+1. The Deep Learning models load faster with a GPU, if GPU is not available please wait for about 1-2 minutes for the app to start and ignore CPU/GPU related warnings.
 2. The Jupyter Notebooks in modelTraining folder can be used to train the disease detection models again.
-3. Data taken from: Kaggle and self aquired
-    - https://www.kaggle.com/datasets/shubhamgoel27/dermnet (SKIN)
-    - https://www.kaggle.com/datasets/kondwani/eye-disease-dataset (EYE)
-
 
