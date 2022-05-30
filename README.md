@@ -15,10 +15,10 @@
   * [Compatible Platforms](#subheading4)
 - [UI of the Webapp](#heading2)
 - [How to setup and run](#heading3)
-- [Additional Instructions](#heading4)
+- [Additional Information](#heading4)
 
 
-
+<br>
 
 ![img](https://www.gene.com/assets/content/tile_image/C3bTJ6vzY5zW4cAPwgUUjmZHFr4TgXLk.jpg)
 
@@ -101,7 +101,9 @@ $ python manage.py runserver
 
 ***Dermitection is up and running!***
 
-## **ADDITIONAL INSTRUCTIONS:** <a name="heading4"></a>
+- To stop the camera press 'esc' and see the results get displayed on the screen.
+
+## **ADDITIONAL INFORMATION** <a name="heading4"></a>
 1. The Deep Learning models load faster with a GPU, if GPU is not available please wait for about 1-2 minutes for the app to start and ignore CPU/GPU related warnings.
 2. The Jupyter Notebooks in modelTraining folder can be used to train the disease detection models again.
 
