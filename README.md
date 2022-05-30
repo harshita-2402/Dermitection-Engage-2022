@@ -91,7 +91,7 @@ $ git clone [https://github.com/harshita-2402/Dermitection-Engage-22.git](https:
 ``` sh
 $ pip install -r requirements.txt
 ```
-- Open Powershell or CMD terminal if using Windows, in the directory containing "FaceRecog" set-up the Django server by running the following command.
+- Open Powershell or CMD terminal if using Windows in the project directory and set-up the Django server by running the following command.
 ``` sh
 $ python manage.py runserver
 ```
