@@ -16,6 +16,7 @@
 - [UI of the Webapp](#heading2)
 - [How to setup and run](#heading3)
 - [Additional Information](#heading4)
+- [Challenges](#heading5)
 
 
 <br>
@@ -107,3 +108,6 @@ $ python manage.py runserver
 1. The Deep Learning models load faster with a GPU, if GPU is not available please wait for about 1-2 minutes for the app to start and ignore CPU/GPU related warnings.
 2. The Jupyter Notebooks in modelTraining folder can be used to train the disease detection models again.
 
+## **CHALLENGES** <a name="heading5"></a>
+
+Lack of sufficient and correct data and time to generate a new one, impacted the accuracy of the deep learning classification models, however this app depicts the usecase of artifical intelligence in efficient recognition of diseases using facial recognition in real-time.
